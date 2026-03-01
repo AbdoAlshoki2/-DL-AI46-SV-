@@ -1,0 +1,13 @@
+# Paths are relative to the "Day 1 lab/" directory (run the demo from there)
+
+processors:
+  feature_processor: processors/feature_processor.joblib
+
+model_path: models/gesture_net.pth
+
+display:
+  font: FONT_HERSHEY_SIMPLEX
+  font_scale: 1.0
+  color: [0, 255, 0]       # BGR – green
+  thickness: 2
+  position: [10, 50]       # top-left corner for the first hand label
